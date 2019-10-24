@@ -62,14 +62,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.Toronto:
                 addFragment(4118, 6167865);
                  break;
-            case R.id.London:
-                addFragment(44418, 2643743);
-                 break;
+
             case R.id.newYork:
                 addFragment(2459115, 5128581);
                 break;
-            case R.id.Mumbai:
-                addFragment(12586539, 1275339);
+            case R.id.Tokyo:
+                addFragment(1118370, 1850147);
                  break;
         }
 
