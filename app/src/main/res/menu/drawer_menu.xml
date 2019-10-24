@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/Montreal"
+            android:title="Montreal"
+            android:visible="true" />
+        <item
+            android:id="@+id/Mumbai"
+            android:title="Mumbai" />
+        <item
+            android:id="@+id/Toronto"
+            android:title="Toronto" />
+        <item
+            android:id="@+id/newYork"
+            android:title="NewYork" />
+        <item
+            android:id="@+id/London"
+            android:title="London" />
+
+
+    </group>
+</menu>

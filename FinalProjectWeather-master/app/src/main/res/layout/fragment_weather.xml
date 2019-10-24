@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/myLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="5"
+    android:background="@drawable/mybackground"
+    android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|bottom"
+            android:paddingTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Today"
+            android:gravity="start|top"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            app:autoSizeTextType="none" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|bottom"
+            android:paddingBottom="3dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+    android:id="@+id/image"
+    android:layout_width="50dp"
+    android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="center|start"
+        android:paddingLeft="20dp"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+    <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="right"
+            android:text="Info!-->"
+            android:textColor="#FA0707"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.14"
+        android:gravity="center"
+        android:text="Min.."
+        android:textColor="#050505"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/minimum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="0.14"
+                android:gravity="center"
+                android:text="Max.."
+                android:textColor="#050505"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/max"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="25sp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Humidity"
+                android:textColor="#050505"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/humidity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.16"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Predictability"
+            android:textColor="#050505"
+            android:textSize="20sp" />
+
+        <TextView
+                android:id="@+id/predictability"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/fiveRecycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
